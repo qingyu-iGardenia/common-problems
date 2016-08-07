@@ -1,0 +1,12 @@
+Ubuntu安装Windows字体
+
+1、在/usr/share/fonts/目录下新建一个目录
+
+2、从Windows的C:\Windows\Fonts目录下复制相应的ttc或ttf字体文件到新建的目录
+
+3、修改复制的字体文件的权限为644
+
+4、创建字体缓存
+        sudo mkfontscale
+        sudo mkfontdir
+        sudo fc-cache -fv

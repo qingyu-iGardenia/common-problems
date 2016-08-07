@@ -1,0 +1,16 @@
+1、参考地址
+        http://blog.softweek.net/article/google-hosts
+        
+2、方法
+        a、打开Chrome浏览器（或Chromium），输入地址：在地址栏里输入chrome://flags/，然后查找QUIC，启用该协议，同时建议启用SPDY/4，能让访问更流畅。
+        
+        b、编辑/etc/hosts文件（编辑之前注意备份），在末尾添加
+        
+
+        c、重启网络
+                sudo /etc/init.d/networking restart
+                
+        d、重启浏览器
+                使用https://www.google.com/ncr的方式来访问
+                ncr = no country redirect
+

@@ -1,0 +1,7 @@
+在Ubuntu下，Android Studio的字体存在很大的渲染问题，采用下面的方法可以稍微改善该问题：
+
+        sudo add-apt-repository ppa:no1wantdthisname/openjdk-fontfix
+        sudo apt update
+        sudo apt install openjdk-8-jdk
+        
+在Android Studio中设置字体的时候，可能需要将字体的大小调整到比较大才能有效果。
